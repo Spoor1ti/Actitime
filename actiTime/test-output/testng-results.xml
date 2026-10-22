@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[openBrowser]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[CreateCustomer]]>
+    </line>
+    <line>
+      <![CDATA[logOut]]>
+    </line>
+    <line>
+      <![CDATA[logout failed: element click intercepted: Element <a href="/logout.do" id="logoutLink" class="logout">...</a> is not clickable at point (1480, 17). Other element would receive the click: <img src="/img/default/dialogs/exitconfirm/shade.png?hash=1389259578" id="muar" style="display: block;">
+  (Session info: chrome=155.0.8059.82)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f9de88e193bcad66cce8367be0d9cc0, clickElement {id=f.CB4DCA2E742E8379B8EB9992CE637E44.d.3C89DF1E8CA32337326CA3896C350D53.e.93}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.82, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51511}, goog:processID: 18460, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51511/devtoo..., se:cdpVersion: 155.0.8059.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5f9de88e193bcad66cce8367be0d9cc0)] -> id: logoutLink]
+Session ID: 5f9de88e193bcad66cce8367be0d9cc0]]>
+    </line>
+    <line>
+      <![CDATA[closeBrowser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-19T11:30:40 IST" name="Default suite" finished-at="2026-10-19T11:31:06 IST" duration-ms="25408">
+    <groups>
+    </groups>
+    <test started-at="2026-10-19T11:30:40 IST" name="Default test" finished-at="2026-10-19T11:31:06 IST" duration-ms="25408">
+      <class name="com.actitime.testscript.CustomerModule">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.actitime.testscript.CustomerModule@ae13544]" started-at="2026-10-19T11:30:40 IST" name="openBrowser" finished-at="2026-10-19T11:30:44 IST" duration-ms="3550" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.actitime.testscript.CustomerModule@ae13544]" started-at="2026-10-19T11:30:44 IST" name="login" finished-at="2026-10-19T11:30:45 IST" duration-ms="1019" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CreateCustomer()[pri:0, instance:com.actitime.testscript.CustomerModule@ae13544]" started-at="2026-10-19T11:30:45 IST" name="CreateCustomer" finished-at="2026-10-19T11:31:03 IST" duration-ms="18586" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CreateCustomer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.actitime.testscript.CustomerModule@ae13544]" started-at="2026-10-19T11:31:03 IST" name="logOut" finished-at="2026-10-19T11:31:05 IST" duration-ms="1179" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logOut]]>
+            </line>
+            <line>
+              <![CDATA[logout failed: element click intercepted: Element <a href="/logout.do" id="logoutLink" class="logout">...</a> is not clickable at point (1480, 17). Other element would receive the click: <img src="/img/default/dialogs/exitconfirm/shade.png?hash=1389259578" id="muar" style="display: block;">
+  (Session info: chrome=155.0.8059.82)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f9de88e193bcad66cce8367be0d9cc0, clickElement {id=f.CB4DCA2E742E8379B8EB9992CE637E44.d.3C89DF1E8CA32337326CA3896C350D53.e.93}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.82, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51511}, goog:processID: 18460, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51511/devtoo..., se:cdpVersion: 155.0.8059.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5f9de88e193bcad66cce8367be0d9cc0)] -> id: logoutLink]
+Session ID: 5f9de88e193bcad66cce8367be0d9cc0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.CustomerModule@ae13544]" started-at="2026-10-19T11:31:05 IST" name="closeBrowser" finished-at="2026-10-19T11:31:06 IST" duration-ms="963" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.testscript.CustomerModule -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
